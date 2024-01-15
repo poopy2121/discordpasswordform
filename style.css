@@ -1,0 +1,87 @@
+body {
+    background-image: url('images/bgdiscord.jpeg');
+    background-size: cover;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    border: ;
+    height: 23rem;
+    width: 35rem;
+    background-color: rgb(46, 43, 43);
+    padding: 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#h2 {
+    text-align: center;
+}
+ 
+
+.changepw {
+ margin-top: 25px;
+}
+
+#pwändern {
+    height: 3rem;
+    width: 31.5rem;
+    background-color: rgb(66, 64, 185);
+    border: hidden;
+    border-radius: 2px;
+    color: white;
+    font: 1em sans-serif;
+    cursor: pointer;
+    
+}
+
+label {
+    position: relative;
+    bottom: 8px;
+}
+
+img {
+    height: 85px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.pwstuff {
+    border: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 25px;
+
+}
+
+.pwstuff input {
+    height: 3rem;
+    width: 100%;
+    border: hidden;
+    border-radius: 3px;
+    font: 1em sans-serif;
+    background-color: rgb(36, 33, 33);
+    color: white;
+    
+}
+
+
+#pwändern:hover {
+    background-color: rgb(50, 84, 148);
+    transition: .25s;
+}
+
+    
